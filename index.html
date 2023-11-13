@@ -1,49 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Technical Documentation</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree Serif"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <nav id="navbar">
-        <header>C# Tutorial</header>
-        <a class="nav-link" href="#Introduction">Introduction</a>
-        <a class="nav-link" href="#Syntax">Syntax</a>
-        <a class="nav-link" href="#Data_Types">Data Types</a>
-        <a class="nav-link" href="#Variables">Variables</a>
-        <a class="nav-link" href="#Type_Casting">Type Casting</a>
-        <a class="nav-link" href="#User_Input">User Input</a>
-        <a class="nav-link" href="#User_Input">Booleans</a>
+      <header>C# Tutorial</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Syntax">Syntax</a>
+      <a class="nav-link" href="#Data_Types">Data Types</a>
+      <a class="nav-link" href="#Variables">Variables</a>
+      <a class="nav-link" href="#Type_Casting">Type Casting</a>
+      <a class="nav-link" href="#User_Input">User Input</a>
+      <a class="nav-link" href="#User_Input">Booleans</a>
     </nav>
 
     <main id="main-doc">
-        <section class="main-section" id="Introduction">
-            <header>Introduction</header>
-            <p>C# is a programming language developed by Microsoft.</p>
-            <p>C# is used in many fields , Some of them are:-</p>
-            <ol>
-                <li>Desktop App Development</li>
-                <li>Mobile App Development</li>
-                <li>Game Development</li>
-                <li>Backend Web Development</li>
-            </ol>
-            <p>C# is one of the most popular programming languages , Because:-</p>
-            <ul>
-                <li>It is a programming language developed by Microsoft</li>
-                <li>It is a high-level programming language which is easy to learn</li>
-                <li>It is more secure than many programming languages</li>
-                <li>It is close to C , C++ and Java ... It is easy for programmers to switch to C# or vice versa</li>
-            </ul>
-        </section>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>C# is a programming language developed by Microsoft.</p>
+        <p>C# is used in many fields , Some of them are:-</p>
+        <ol>
+          <li>Desktop App Development</li>
+          <li>Mobile App Development</li>
+          <li>Game Development</li>
+          <li>Backend Web Development</li>
+        </ol>
+        <p>C# is one of the most popular programming languages , Because:-</p>
+        <ul>
+          <li>It is a programming language developed by Microsoft</li>
+          <li>
+            It is a high-level programming language which is easy to learn
+          </li>
+          <li>It is more secure than many programming languages</li>
+          <li>
+            It is close to C , C++ and Java ... It is easy for programmers to
+            switch to C# or vice versa
+          </li>
+        </ul>
+      </section>
 
-        <section class="main-section" id="Syntax">
-            <header>Syntax</header>
-            <p>Syntax is the structure of statements , Here is a simple program typed in C# to discuss the meaning of syntax</p>
-            <pre><code>using System;
+      <section class="main-section" id="Syntax">
+        <header>Syntax</header>
+        <p>
+          Syntax is the structure of statements , Here is a simple program typed
+          in C# to discuss the meaning of syntax
+        </p>
+        <pre><code>using System;
 namespace Hello
 {
     class MyProgram
@@ -60,66 +78,79 @@ namespace Hello
         }
     }
 }</code></pre>
-        </section>
+      </section>
 
-        <section class="main-section" id="Data_Types">
-            <header>Data Types</header>
-            <p>Some data types that are supported by C# :-</p>
-            <ol>
-                <li>integer (int) ... 1 , 500 , -200</li>
-                <li>double (double) ... 0.5 , 3.14 , -2.5</li>
-                <li>string (string) ... "AAA" , "What is your name ?"</li>
-                <li>character (char) ... 'A' , '+' , '5'</li>
-                <li>boolean (bool) ... true , false</li>
-            </ol>
-        </section>
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <p>Some data types that are supported by C# :-</p>
+        <ol>
+          <li>integer (int) ... 1 , 500 , -200</li>
+          <li>double (double) ... 0.5 , 3.14 , -2.5</li>
+          <li>string (string) ... "AAA" , "What is your name ?"</li>
+          <li>character (char) ... 'A' , '+' , '5'</li>
+          <li>boolean (bool) ... true , false</li>
+        </ol>
+      </section>
 
-        <section class="main-section" id="Variables">
-            <header>Variables</header>
-            <p>Variables are containers for storing data values.</p>
-            <p>The syntax for declaring a variable and assigning a value to it is as following :</p>
-            <pre><code>data-type variable-name = value(data) ;</code></pre>
-            <p>For example :-</p>
-            <pre><code>int age = 20 ;
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>Variables are containers for storing data values.</p>
+        <p>
+          The syntax for declaring a variable and assigning a value to it is as
+          following :
+        </p>
+        <pre><code>data-type variable-name = value(data) ;</code></pre>
+        <p>For example :-</p>
+        <pre><code>int age = 20 ;
 string FirstName = "AAA" ;
 string full_name = "AAA BBB" ;
 double _degree = 80.5 ;
 char grade = 'A' ;
 bool student = true ;
 bool male = true ;</code></pre>
-        </section>
+      </section>
 
-        <section class="main-section" id="Type_Casting">
-            <header>Type Casting</header>
-            <p>Type casting means turning a certain data from a type to another one.</p>
-            <p>Syntax for type casting is :-</p>
-            <pre><code>(data-type) data</code></pre>
-            <p>For example :-</p>
-            <pre><code>double pi = 3.14 ;
+      <section class="main-section" id="Type_Casting">
+        <header>Type Casting</header>
+        <p>
+          Type casting means turning a certain data from a type to another one.
+        </p>
+        <p>Syntax for type casting is :-</p>
+        <pre><code>(data-type) data</code></pre>
+        <p>For example :-</p>
+        <pre><code>double pi = 3.14 ;
 int myInt = (int) pi ;
 Console.WriteLine(pi) ; // 3.14
 Console.WriteLine(myInt) ; // 3</code></pre>
-        </section>
+      </section>
 
-        <section class="main-section" id="User_Input">
-            <header>User Input</header>
-            <p>You already know that Console.WriteLine() is used to output text.</p>
-            <p>Now you are going to learn how to use Console.ReadLine() to get user input.</p>
-            <pre><code>Console.ReadLine();</code></pre>
-            <p>For example :-</p>
-            <pre><code>int age ;
+      <section class="main-section" id="User_Input">
+        <header>User Input</header>
+        <p>You already know that Console.WriteLine() is used to output text.</p>
+        <p>
+          Now you are going to learn how to use Console.ReadLine() to get user
+          input.
+        </p>
+        <pre><code>Console.ReadLine();</code></pre>
+        <p>For example :-</p>
+        <pre><code>int age ;
 Console.Write("Enter your age:") ;
 age = Console.ReadLine() ;
 Console.WriteLine("You are " + age + " years old") ;</code></pre>
-        </section>
+      </section>
 
-        <section class="main-section" id="Booleans">
-            <header>Booleans</header>
-            <p>Booleans are data types that can be used to control whether something is true or false(yes or no / on or off).</p>
-            <pre><code>bool male = true ;
+      <section class="main-section" id="Booleans">
+        <header>Booleans</header>
+        <p>
+          Booleans are data types that can be used to control whether something
+          is true or false(yes or no / on or off).
+        </p>
+        <pre><code>bool male = true ;
 bool student = true ;
 bool permission_accepted = false ;</code></pre>
-        </section>
+      </section>
     </main>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
